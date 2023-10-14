@@ -1,0 +1,44 @@
+GET http://127.0.0.1:8000/api/v1/todos HTTP/1.1
+
+###
+
+
+POST http://127.0.0.1:8000/api/v1/todos HTTP/1.1
+content-type: application/json
+
+{
+    "title": "sample",
+    "done": false
+}
+
+
+###
+
+PUT http://127.0.0.1:8000/api/v1/todos HTTP/1.1
+content-type: application/json
+
+{
+    "title": "sample",
+    "done": false
+}
+
+###
+
+PUT http://127.0.0.1:8000/api/v1/todos HTTP/1.1
+content-type: application/json
+
+{
+    "title": "sample",
+    "done": false
+}
+
+
+###
+
+DELETE http://127.0.0.1:8000/api/v1/todos HTTP/1.1
+content-type: application/json
+
+{
+    "title": "sample",
+    "done": false
+}
